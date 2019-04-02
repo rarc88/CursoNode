@@ -1,0 +1,12 @@
+1.- Entry Point - En este caso index.js de src
+  - Se realizan las configuraciones del servidor.
+  - Se configura como se quiere recibir la data del request
+  - Se maneja la ruta general
+
+2.- Router
+  - Se importan todos los controladores necesarios
+  - Si necesita autorizacion para la ruta se implementa un middleware
+  - Segun la ruta y metodo que venga en el request se le asigna un controlador
+
+3 - Controlador
+  - Contiene los metodos para resolver peticiones de una ruta especifica

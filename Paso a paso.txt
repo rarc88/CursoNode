@@ -1,0 +1,26 @@
+Instalamos  express
+  npm i -S express
+
+Instalamos body-parser para poder manejar la data que viene en el request
+  npm i -S body-parser
+
+Instalamos la libreria nodemon para que el servidor detecte cambios en el codigo y se reinicie automanticamente
+  npm i -D nodemon
+
+Agregamos el script al package.json para nodemon
+  "start": "nodemon index.js"
+
+Instalamos mysql
+  npm i mysql
+
+Instalamos bcrypt
+  npm i bcrypt-nodejs
+
+Instalamos JWT
+  npm i jwt-simple
+
+Instalamos moment
+  npm i moment
+
+Instalamos express-handlebars
+  npm i express-handlebars
